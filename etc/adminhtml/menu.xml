@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Lof
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Lof.com license that is
+ * available through the world-wide-web at this URL:
+ * https://lof.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Lof
+ * @package     Lof_OnePageReviews
+ * @copyright   Copyright (c) Lof (https://lof.com/)
+ * @license     https://lof.com/LICENSE.txt
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+                id="Lof_OnePageReviews::Label"
+                title="One Page Review"
+                module="Lof_OnePageReviews"
+                sortOrder="210"
+                parent="Lof_All::lof_all"
+                resource="Lof_OnePageReviews::config"
+        />
+        <add
+                id="Lof_OnePageReviews::Configuration"
+                title="Configurations"
+                module="Lof_OnePageReviews"
+                action="adminhtml/system_config/edit/section/onepagereviews/"
+                sortOrder="10"
+                parent="Lof_OnePageReviews::Label"
+                resource="Lof_OnePageReviews::config"
+        />
+    </menu>
+</config>

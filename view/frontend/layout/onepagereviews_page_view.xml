@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Lof
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Lof.com license that is
+ * available through the world-wide-web at this URL:
+ * https://landofcoder.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Lof
+ * @package     Lof_OnePageReviews
+ * @copyright   Copyright (c) 2020 Lof (https://landofcoder.com/)
+ * @license     https://landofcoder.com/LICENSE.txt
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Lof\OnePageReviews\Block\OnePageReviews" name="lof_onepagereviews" template="onepagereviews.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
